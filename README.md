@@ -34,3 +34,16 @@
   - git add . (adicionar alterações)
   - git commit -m "" (para adicionar o nome da marcação)
   - git push (para subir a atualização, e você não precisa mais passar o -u origin main)
+
+---
+
+## alterações em animação e alteração de cor de itens
+
+- Cores das bordas do botão (cores mais escuras para efeito de sombra)
+- animação de transparencia para os botões das redes sociais
+- Estudando meios para criar animação do card completo ao realizar interação com o Mouse
+
+## Animação de card com interação de mouse
+
+- vanila tilt para fazer animação com movimentação de mouse
+  Esperando testar novas funções

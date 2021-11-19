@@ -82,9 +82,12 @@ main {
   right: 25%;
 }
 .container {
-  width: 358px;
+  width: 390px;
   margin-top: 135px;
   text-align: center;
+  height: 500px;
+
+  border-radius: 10px;
 
   transition: all ease 1s;
 
@@ -99,7 +102,7 @@ main {
 }
 
 #userImage {
-  transition: all ease 1s;
+  transition: all ease 2s;
 }
 
 #userImage:hover {
@@ -117,6 +120,7 @@ main {
 }
 
 #img-faixa {
+  width: 100px;
   position: absolute;
   z-index: 2;
   top: -135px;
@@ -131,6 +135,7 @@ main {
 }
 
 #back-tag {
+  border-radius: 10px;
   position: absolute;
   top: 0;
   left: 0;
@@ -194,19 +199,19 @@ ul {
 }
 
 #boton-yout:hover {
-  box-shadow: 0rem 5px 15px rgba(255, 0, 0, 0.5) !important;
+  box-shadow: 0rem 5px 15px rgba(255, 0, 0, 0.5);
 }
 
 #boton-inst:hover {
-  box-shadow: 0rem 5px 15px rgba(247, 119, 55, 0.5) !important;
+  box-shadow: 0rem 5px 15px rgba(247, 119, 55, 0.5);
 }
 
 #boton-twit:hover {
-  box-shadow: 0rem 5px 15px rgba(0, 172, 238, 0.5) !important;
+  box-shadow: 0rem 5px 15px rgba(0, 172, 238, 0.5);
 }
 
 #boton-face:hover {
-  box-shadow: 0rem 5px 15px rgba(40, 103, 178, 0.5) !important;
+  box-shadow: 0rem 5px 15px rgba(40, 103, 178, 0.5);
 }
 
 h2 {
