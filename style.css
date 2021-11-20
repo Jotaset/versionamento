@@ -82,13 +82,12 @@ main {
   right: 25%;
 }
 .container {
-  width: 390px;
+  width: 359px;
   margin-top: 135px;
   text-align: center;
   height: 500px;
 
   border-radius: 10px;
-  box-shadow: 0ex;
 
   transition: all ease 1s;
 
@@ -140,7 +139,7 @@ main {
   border-radius: 10px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -15px;
 }
 
 .avatar {
