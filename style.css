@@ -88,6 +88,7 @@ main {
   height: 500px;
 
   border-radius: 10px;
+  box-shadow: 0ex;
 
   transition: all ease 1s;
 

@@ -5,9 +5,8 @@ var VanillaTilt = (function () {
    * Created by Sergiu Șandor (micku7zu) on 1/27/2017.
    * Original idea: https://github.com/gijsroge/tilt.js
    * MIT License.
-   * Version 1.7.2
-   */
-
+    Como raios isso tudo vai me ajudar.....
+  **/
   class VanillaTilt {
     constructor(element, settings = {}) {
       if (!(element instanceof Node)) {
@@ -23,7 +22,7 @@ var VanillaTilt = (function () {
       this.left = null
       this.top = null
 
-      // for Gyroscope sampling
+      // for Gyroscope
       this.gammazero = null
       this.betazero = null
       this.lastgammazero = null
@@ -70,7 +69,7 @@ var VanillaTilt = (function () {
     }
 
     /**
-     * Method returns element what will be listen mouse events
+     *Return to event listener
      * @return {Node}
      */
     getElementListener() {
@@ -215,6 +214,9 @@ var VanillaTilt = (function () {
 
       this.updateCall = requestAnimationFrame(this.updateBind)
     }
+
+    // Tio, Sam
+    // SOCOOOOOOOOOOOOOOOOOOOOOORRO
 
     onMouseEnter() {
       this.updateElementPosition()
