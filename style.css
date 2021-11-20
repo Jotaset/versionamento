@@ -92,7 +92,7 @@ main {
   transition: all ease 1s;
 
   color: var(--grey3);
-  background: var(--grey4);
+  background: rgba(135, 40, 40, 0.5);
   padding-top: 3rem;
   padding-bottom: 2rem;
   z-index: 1;
@@ -135,6 +135,7 @@ main {
 }
 
 #back-tag {
+  width: 390px;
   border-radius: 10px;
   position: absolute;
   top: 0;
